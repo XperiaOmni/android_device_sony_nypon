@@ -26,6 +26,9 @@ $(call inherit-product, vendor/omni/config/common.mk)
 TARGET_SCREEN_HEIGHT := 960
 TARGET_SCREEN_WIDTH := 540
 
+# OmniTorch
+PRODUCT_PACKAGES += OmniTorch
+
 #Sony Apps in play store
 PRODUCT_GMS_CLIENTID_BASE := android-sonyericsson
 
